@@ -1,14 +1,14 @@
 import { Head } from '@inertiajs/react';
-import { LandingPage } from '@/shadcn/component/landing-page';
 import MainLayout from '@/Layouts/MainLayout';
+import { MenuPage } from '@/shadcn/component/menu-page';
 
 export default function Welcome() {
     return (
         <>
             <MainLayout>
-                <Head title="Resto App" />
+                <Head title="Menu" />
                 <div>
-                    <LandingPage />
+                    <MenuPage />
                 </div>
             </MainLayout>
         </>

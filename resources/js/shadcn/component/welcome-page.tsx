@@ -42,10 +42,10 @@ export function WelcomePage() {
             </NavigationMenuLink>
             <NavigationMenuLink asChild>
               <Link
-                href="#"
+                href="/login"
                 className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100"
               >
-                Contact
+                Login
               </Link>
             </NavigationMenuLink>
           </NavigationMenuList>
