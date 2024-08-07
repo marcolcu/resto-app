@@ -23,6 +23,9 @@ Route::get('/menu', function () {
 Route::get('/about', function () {
     return Inertia::render('AboutUs/AboutUs');
 })->name('about');
+Route::get('/treservation', function () {
+    return Inertia::render('TableReservation/TableReservation');
+})->name('treservation');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
