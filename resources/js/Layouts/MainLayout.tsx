@@ -14,13 +14,13 @@ export default function MainLayout({ children }: PropsWithChildren) {
                     <Link href="/menu" className="text-sm font-medium hover:underline underline-offset-4">
                         Menu
                     </Link>
-                    <Link href="#" className="text-sm font-medium hover:underline underline-offset-4">
+                    <Link href="/special" className="text-sm font-medium hover:underline underline-offset-4">
                         Specials
                     </Link>
                     <Link href="/about" className="text-sm font-medium hover:underline underline-offset-4">
                         About
                     </Link>
-                    <Link href="#" className="text-sm font-medium hover:underline underline-offset-4">
+                    <Link href="/contact" className="text-sm font-medium hover:underline underline-offset-4">
                         Contact
                     </Link>
                 </nav>

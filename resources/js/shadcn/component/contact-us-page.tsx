@@ -89,7 +89,7 @@ export function ContactUsPage() {
   )
 }
 
-function MailIcon(props) {
+function MailIcon(props: any) {
   return (
     <svg
       {...props}
@@ -110,7 +110,7 @@ function MailIcon(props) {
 }
 
 
-function MapPinIcon(props) {
+function MapPinIcon(props: any) {
   return (
     <svg
       {...props}
@@ -131,7 +131,7 @@ function MapPinIcon(props) {
 }
 
 
-function PhoneIcon(props) {
+function PhoneIcon(props: any) {
   return (
     <svg
       {...props}

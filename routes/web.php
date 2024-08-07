@@ -26,6 +26,12 @@ Route::get('/about', function () {
 Route::get('/treservation', function () {
     return Inertia::render('TableReservation/TableReservation');
 })->name('treservation');
+Route::get('/contact', function () {
+    return Inertia::render('ContactUs/ContactUs');
+})->name('contact');
+Route::get('/special', function () {
+    return Inertia::render('Special/Special');
+})->name('special');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
