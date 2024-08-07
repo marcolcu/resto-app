@@ -20,6 +20,9 @@ Route::get('/dashboard', function () {
 Route::get('/menu', function () {
     return Inertia::render('Menu/Menu');
 })->name('menu');
+Route::get('/about', function () {
+    return Inertia::render('AboutUs/AboutUs');
+})->name('about');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
